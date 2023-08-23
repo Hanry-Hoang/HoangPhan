@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <title>My website</title>
+</head>
+
+<body>
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <a href="#" class="logo">
+            <i class='bx bx-code-alt'></i>
+            <div class="logo-name">
+                <span>My</span>Coding
+            </div>
+        </a>
+        <ul class="side-menu">
+            <li><a href="#"><i class='bx bx-code-alt'></i>Technical Computer</a></li>
+            <li><a href="#"><i class='bx bx-store-alt'></i>Security Information</a></li>
+            <li class="active"><a href="#"><i class='bx bxl-google'></i>Internet</a></li>
+            <li><a href="#"><i class='bx bx-message-square-dots'></i>Artificial Intelligence </a></li>
+            <li><a href="#"><i class='bx bx-group'></i>Science Computer</a></li>
+            <li><a href="#"><i class='bx bx-cog'></i>Software Engineer</a></li>
+            <li><a href="#"><i class='bx bxl-google'></i>Big Data</a></li>
+        </ul>
+        <ul class="side-menu">
+            <li>
+                <a href="#" class="logout">
+                    <i class='bx bx-log-out-circle'></i>
+                    Logout
+                </a>
+            </li>
+        </ul>
+    </div>
+    <!-- End of sidebar -->
+
+
+    <!-- Main content, Navbar -->
+    <div class="content">
+        <nav>
+            <i class='bx bx-menu'></i>
+            <form action="#">
+                <div class="form-input">
+                    <input type="search" placeholder="Search...">
+                    <button class="search-btn" type="submit">
+                        <i class='bx bx-search'></i>
+                    </button>
+                </div>
+            </form>
+            <input type="checkbox" id="theme-toggle" hidden>
+            <label for="theme-toggle" class="theme-toggle"></label>
+            <a href="#" class="notif">
+                <i class='bx bx-bell'></i>
+                <span class="count">12</span>
+            </a>
+            <a href="#" class="profile">
+                <img src="https://cdn4.iconfinder.com/data/icons/seo-search-engine-optimization-coloured-circle/100/-_SEO_-_Webmarketing_-_Code_-_Developer_-_Web_-_Development-256.png" alt="">
+            </a>
+        </nav>
+        <!-- End of Navbar -->
+
+        <main>
+            <div class="header">
+                <div class="left">
+                    <h1>Information technology</h1>
+                    <ul class="breadcrumb">
+                        <li><a href="#">Analytics</a></li>/
+                        <li><a href="#" class="active">Shop</a></li>
+                    </ul>
+                </div>
+                <div class="report">
+                    <i class='bx bx-cloud-download'></i>
+                    <span>Download CSV</span>
+                </div>
+            </div>
+
+            <!-- Insights -->
+            <ul class="insights">
+                <li>
+                    <i class='bx bx-calendar-check' ></i>
+                    <span class="info">
+                        <h3>
+                            7,72%
+                        </h3>
+                        <p>Increasing</p>
+                    </span>
+                </li>
+                <li>
+                    <i class='bx bx-show-alt' ></i>
+                    <span class="info">
+                        <h3>
+                            64.000 DN
+                        </h3>
+                        <p>Number of DN</p>
+                    </span>
+                </li>
+                <li>
+                    <i class='bx bx-line-chart' ></i>
+                    <span class="info">
+                        <h3>
+                            57 billion USD
+                        </h3>
+                        <p>Revenue</p>
+                    </span>
+                </li>
+                <li>
+                    <i class='bx bx-dollar-circle' ></i>
+                    <span class="info">
+                        <h3>
+                            0,44% GDP 
+                        </h3>
+                        <p>Total GDP in VietNam</p>
+                    </span>
+                </li>
+            </ul>
+            <!-- End of insights -->
+
+            <div class="bottom-data">
+                <div class="orders">
+                    <div class="header">
+                        <i class='bx bx-receipt' ></i>
+                        <h3>Introductions</h3>
+                        <i class='bx bx-filter' ></i>
+                        <i class='bx bx-search' ></i>
+                    </div>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Date</th>
+                                <th>Concept</th>
+                            </tr>
+                    </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <img src="https://wallpaperaccess.com/full/314785.jpg" alt="">
+                                    <p>Code</p>
+                                </td>
+                                <td>
+                                    <td></td>
+                                    <td><span class="status completed"> Program Instructions.</span></td>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img src="https://tophinhanhdep.com/wp-content/uploads/2021/11/Hacker-Code-Wallpapers.jpg" alt="">
+                                    <p>Hackers</p>
+                                </td>
+                                <td>
+                                    <td></td>
+                                    <td><span class="status process">A person who uses computers to gain unauthorized access to data.</span></td>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img src="https://wallpapercave.com/wp/wp7471881.jpg" alt="">
+                                    <p>Programming Language</p>
+                                </td>
+                                <td>
+                                    <td></td>
+                                    <td><span class="status pending">A system of notation for writing computer programs.</span></td>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+            <!-- Reminders -->
+            <div class="reminders">
+                <div class="header">
+                    <i class='bx bx-note'></i>
+                    <h3>Good Coder</h3>
+                    <i class='bx bx-filter' ></i>
+                    <i class='bx bx-plus' ></i>
+                </div>
+                <ul class="task-list">
+                    <li class="completed">
+                        <div class="task-title">
+                            <i class='bx bx-check-circle' ></i>
+                            <p>Understanding a lot of knowledge </p>
+                            <i class='bx bx-dots-vertical-rounded' ></i>
+                        </div>
+                    </li>
+                    <li class="completed">
+                        <div class="task-title">
+                            <i class='bx bx-check-circle' ></i>
+                            <p>Creating products quickly</p>
+                            <i class='bx bx-dots-vertical-rounded' ></i>
+                        </div>
+                    </li>
+                    <li class="not-completed">
+                        <div class="task-title">
+                            <i class='bx bx-check-circle' ></i>
+                            <p>Learning more experience</p>
+                            <i class='bx bx-dots-vertical-rounded' ></i>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <!-- End of reminders -->
+            </div>
+
+        </main>
+
+    </div>
+    
+<script src="index.js"></script>
+</body>
+
+</html>
